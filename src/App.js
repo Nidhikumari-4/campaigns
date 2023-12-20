@@ -1,11 +1,13 @@
 import React from "react";
-import "./App.css";
+
+import SideMenu from "./components/SideMenu";
+import Campaigns from "./pages/Campaigns";
 
 const App = () => {
   return (
-    <div>
-      {" "}
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div className="bg-[#F6F9FF] max-w-[96rem] h-auto flex flex-row">
+      <SideMenu />
+      <Campaigns />
     </div>
   );
 };
