@@ -3,10 +3,10 @@ import Navbar from "../components/Navbar";
 
 const Campaigns = () => {
   return (
-    <div>
-      <div>
+    <div className="w-full h-auto flex flex-col">
+      <>
         <Navbar />
-      </div>
+      </>
       <div>Campaigns</div>
     </div>
   );

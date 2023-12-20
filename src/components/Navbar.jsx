@@ -13,12 +13,12 @@ import { RiArrowDownSFill } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <div className="max-w-[85.8125rem] h-[5rem] bg-[#FFF] border-b-2 boder-[#DAE6FF] p-3">
+    <div className=" h-[5rem] bg-[#FFF] border-b-2 px-10 py-3">
       <div className="flex items-center justify-end gap-3">
         <span className="text-xs font-normal text-slate-600 p-2 text-center leading-8">
           Free trial ends in 2 days
         </span>
-        <span className="flex text-[#FF8C00] bg-[#F29A2E1A] items-center text-xs font-normal px-2 rounded-md ">
+        <span className="flex text-[#FF8C00] bg-[#F29A2E1A] items-center text-xs font-normal px-2 rounded-md py-[0.08rem]">
           <img
             src={crown}
             alt="crown"
