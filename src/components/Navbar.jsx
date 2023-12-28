@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className=" h-[5rem] bg-[#FFF] border-b-2 px-10 py-3">
       <div className="flex items-center justify-end gap-3">
-        <span className="text-xs font-normal text-slate-600 p-2 text-center leading-8">
+        <span className="text-xs font-medium text-slate-500 p-2 text-center leading-8">
           Free trial ends in 2 days
         </span>
         <span className="flex text-[#FF8C00] bg-[#F29A2E1A] items-center text-xs font-normal px-2 rounded-md py-[0.08rem]">

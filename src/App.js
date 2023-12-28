@@ -1,7 +1,7 @@
 import React from "react";
 
 import SideMenu from "./components/SideMenu";
-import Campaigns from "./pages/Campaigns";
+import Campaigns from "./pages/Campaigns/Campaigns";
 
 const App = () => {
   return (
